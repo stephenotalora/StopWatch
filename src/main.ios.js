@@ -3,12 +3,11 @@
  * https://github.com/jhabdas/react-native-webpack-starter-kit
  */
 import { AppRegistry } from 'react-native';
-import App from './components/App';
+import StopWatch from './components/views/StopWatch';
 
-class Root extends App {
+class Root extends StopWatch {
   static defaultProps = {
-    ...App.defaultProps,
-    instructions: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu',
+    ...StopWatch.defaultProps
   }
 }
 
