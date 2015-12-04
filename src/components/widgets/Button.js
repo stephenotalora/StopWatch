@@ -7,6 +7,7 @@ const {
 
 class Button extends React.Component {
   static propTypes = {
+    id: PropTypes.string,
     label: PropTypes.string,
     labelStyle: PropTypes.object,
     outterStyle: PropTypes.object,
@@ -15,7 +16,7 @@ class Button extends React.Component {
 
   render() {
     return (
-      <TouchableHighlight
+      <TouchableHighlight id={this.props.id}
         underlayColor="gray" onPress={this.props.handlePress}
         style={this.props.outterStyle ? this.props.outterStyle : null}>
         <Text style={this.props.labelStyle ? this.props.labelStyle : null}>

@@ -13,6 +13,7 @@
     "url": "https://github.com/jhabdas/react-native-webpack-starter-kit"
   },
   "dependencies": {
+    "minutes-seconds-milliseconds": "^1.0.3",
     "react-native": "0.13 - 0.14"
   },
   "devDependencies": {

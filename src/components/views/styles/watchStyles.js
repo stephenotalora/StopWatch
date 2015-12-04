@@ -23,7 +23,15 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   timer: {
-    fontSize: 20,
+    fontSize: 60,
     fontWeight: '700'
+  },
+  button: {
+    borderWidth: 2,
+    height: 100,
+    width: 100,
+    borderRadius: 50,
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
